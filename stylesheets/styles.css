@@ -16,7 +16,7 @@ body {
 footer {
   padding: 10px; }
 
-nav ul li {
+ul li {
   padding: 5 10px; }
 
 h1 {
@@ -44,6 +44,7 @@ h1, h3 {
   font-family: "Amatic SC", cursive;
   text-align: center; }
 
+
 section {
   background-color: rgba(255, 255, 255, 0.8);
   margin-top: 20px;
@@ -59,33 +60,28 @@ section {
   background-repeat: no-repeat; }
 
 .hero-content{
-      position: absolute;
-      text-align: center;
-      min-width: 300px;
-      left: 50%;
-      top: 50%;
-      padding: 65px;
-      background: rgba(255, 255, 255, 0.8);
-      outline: 4px double #FFFFFF;
-      outline-offset: 8px;
-      -webkit-transform: translateX(-50%) translateY(-50%);
-      transform: translateX(-50%) translateY(-50%);
-    }
+    position: absolute;
+    text-align: center;
+    min-width: 300px;
+    left: 50%;
+    top: 50%;
+    padding: 65px;
+    background: rgba(255, 255, 255, 0.8);
+    outline: 4px double #FFFFFF;
+    outline-offset: 8px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); }
 
   .main-text {
     display: block;
     margin: 0 auto;
-    width: 80%;
-  }
+    width: 80%; }
 
   #profile-picture {
     width: 90%;
-    padding: 0 30px 30px 30px;
-  }
+    padding: 0 30px 30px 30px; }
 
   #about-me ul {
-    text-align: left;
-  }
+    text-align: left; }
   #about-me .list {
-    width: 30%;
-  }
+    width: 30%; }
